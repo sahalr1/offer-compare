@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.diviso.graeshoppe.offer"
+    },
+    "jhipsterVersion": "6.10.0",
+    "applicationType": "microservice",
+    "baseName": "Offer",
+    "packageName": "com.diviso.graeshoppe.offer",
+    "packageFolder": "com/diviso/graeshoppe/offer",
+    "serverPort": "8095",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTE5MTJmNzJkMjczZDRjZGM0OTk2ZmVlYmMwMmRhNWI2ZWU4YjA1MjVmNjdmNjEyZDAzZjQ5YjcwNDJjMDdkNmY5Yjg1NDllNjlmNzAyNzcxMDhlYTIxNGU3NDFjNjc2YjNjOWI0MzM1N2JmODM5YjgxM2VhODEyZWMyZjFlY2U=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "enableHibernateCache": false,
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1593721163705,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  }
+}

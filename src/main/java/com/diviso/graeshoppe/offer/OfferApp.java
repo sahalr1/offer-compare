@@ -1,8 +1,8 @@
 package com.diviso.graeshoppe.offer;
 
 import com.diviso.graeshoppe.offer.config.ApplicationProperties;
-import com.diviso.graeshoppe.offer.config.DefaultProfileUtil;
 
+import io.github.jhipster.config.DefaultProfileUtil;
 import io.github.jhipster.config.JHipsterConstants;
 
 import org.apache.commons.lang3.StringUtils;
@@ -12,7 +12,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.core.env.Environment;
 
 import javax.annotation.PostConstruct;
@@ -23,7 +22,6 @@ import java.util.Collection;
 
 @SpringBootApplication
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
-@EnableDiscoveryClient
 public class OfferApp {
 
     private static final Logger log = LoggerFactory.getLogger(OfferApp.class);
@@ -57,7 +55,7 @@ public class OfferApp {
     /**
      * Main method, used to run the application.
      *
-     * @param args the command line arguments
+     * @param args the command line arguments.
      */
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(OfferApp.class);
